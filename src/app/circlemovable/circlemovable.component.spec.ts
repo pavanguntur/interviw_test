@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomersViewComponent } from './customers-view.component';
+import { CirclemovableComponent } from './circlemovable.component';
 
-describe('CustomersViewComponent', () => {
-  let component: CustomersViewComponent;
-  let fixture: ComponentFixture<CustomersViewComponent>;
+describe('CirclemovableComponent', () => {
+  let component: CirclemovableComponent;
+  let fixture: ComponentFixture<CirclemovableComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CustomersViewComponent ]
+      declarations: [ CirclemovableComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CustomersViewComponent);
+    fixture = TestBed.createComponent(CirclemovableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
